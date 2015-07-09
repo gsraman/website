@@ -220,13 +220,13 @@ img{
   color: #FAFDFF;
   font-size: 25px;
   font-weight: bold;
-  margin-top: 15px; 
+  margin-top: 0px; 
 }
 
 
 .img-logo {
-  height: 50px;
-  width: 300px;
+  height: 60px;
+  width: 70px;
 }
 
 .navbar-default , .navbar-default  {
@@ -1825,6 +1825,11 @@ div[data-dimension] {
   background-color: #c762cb;
 }
 
+.video-tube {
+  border-width: 2px;
+  border-color: black;
+  border-top-color: black;
+}
 
 /*======================///////////////
 			start responsive style
