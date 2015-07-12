@@ -211,6 +211,15 @@ img{
 }
 
 /*--------.menu_area-------- */
+
+.img-logo {
+  padding-left: 0px;
+  height: 70px;
+  width: 70px;
+  margin-left: 0px;
+  float: left;
+}
+
 .menu_area{
   float: left;
   display: inline;
@@ -224,10 +233,6 @@ img{
 }
 
 
-.img-logo {
-  height: 60px;
-  width: 70px;
-}
 
 .navbar-default , .navbar-default  {
   background-color: #FAFDFF;
@@ -1435,8 +1440,8 @@ div[data-dimension] {
   display: inline-block;
   float: left;
   padding: 8px 16px;
-  color: #ccc;
-  border:2px solid #ccc;
+  color: lightblue;
+  border:2px solid lightblue;
   text-transform: uppercase;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1455,8 +1460,8 @@ div[data-dimension] {
   display: inline-block;
   float: right;
   padding: 8px 16px;
-  color: #ccc;
-  border:2px solid #ccc;
+  color: lightblue;
+  border:2px solid lightblue;
   text-transform: uppercase;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1829,8 +1834,32 @@ div[data-dimension] {
   border-width: 2px;
   border-color: black;
   border-top-color: black;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+
 }
 
+.text-highlight {
+  border-width:2px; 
+  border-height: 300px;
+  border-color:#9B0D0D; 
+  border-style: solid; 
+  border-radius:15px; 
+  padding:30px; 
+  font-size: 15px; 
+  text-align:center; 
+  box-shadow:inset 0px 0px 5px 0px rgba(42,42,42,.75); 
+  font-style:none; 
+  font-weight:normal; 
+  font-family:cursive;  
+  background-color: #FFFFFF;
+     
+}
+
+.header-highlight {
+  font-family: cursive; !important
+}
 /*======================///////////////
 			start responsive style
 =====================///////////////////////*/
